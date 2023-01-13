@@ -1,0 +1,1288 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculator</title>
+<meta name="title" content="">
+<link rel="icon" type="image/x-icon" href="assets/img/mgs.png">
+<!--<meta name="description" content="Tempat terbaik untuk Top up Game Free Fire, Mobile Legends, Higgs Domino, Apex Legends murah cepat dan terpercaya dan tercepat.">
+<meta name="keywords" content="top up game, top up chip higgs domino, higgs domino, top up game Game Murah, Mobile Legends, Free Fire, Valorant, PUBG Mobile, Ragnarok, higgs domino">-->
+<meta name="author" content="LC">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<link rel="stylesheet preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+<link href='https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700;800&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&amp&display=swap' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="assets/css/loader.css">
+<link rel="stylesheet" href="assets/css/navbar.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<!-- Event snippet for Website traffic conversion page -->
+<script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-816215190/mD85CIX7wbADEJbpmYUD'
+        });
+    </script>
+</head>
+<body style="background-color:rgb(43, 42, 42) ;">
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow" style="background-color: rgb(41, 39, 39);">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/mgs.png" alt="" width="70" height="60">
+              </a>     
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="menu-icon">
+                    <span class="menu-icon__line menu-icon__line-left bg-light"></span>
+                    <span class="menu-icon__line bg-light"></span>
+                    <span class="menu-icon__line menu-icon__line-right bg-light"></span>
+                </div>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"><i class="bi bi-house-fill"></i> Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-calculator-fill"></i> Calculator
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="wr.html"><i class="bi bi-card-text"></i> Hitung WR</a></li>
+                  <li><a class="dropdown-item" href="magicwh.html"><i class="bi bi-card-text"></i> Magic Wheel </a></li>
+                  <li><a class="dropdown-item" href="zodiac.html"><i class="bi bi-card-text"></i> Zodiac</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Navbar end-->
+
+<!--<div class="container" style="margin-top: 10px;">
+	<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+	<symbol id="check-circle-fill" fill="currentColor" viewbox="0 0 16 16">
+	<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+	</symbol>
+	<symbol id="info-fill" fill="currentColor" viewbox="0 0 16 16">
+	<path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+	</symbol>
+	<symbol id="exclamation-triangle-fill" fill="currentColor" viewbox="0 0 16 16">
+	<path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+	</symbol>
+	</svg>
+	<div class="alert alert-warning d-flex align-items-center mb-0" role="alert" style="padding: 10px;">
+		<svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:">
+		<use xlink:href="#info-fill"/>
+		</svg>
+		<div style="width: 100%;margin-top:6px;">
+			<h6 behavior="" direction="" style="width: 100%;margin-top:5px;" class="h-0">Semua Transaksi Di Prosess Secara OTOMATIS, 1-3 Detik Selesai.</h6>
+		</div>
+	</div>
+</div> -->
+
+
+
+<!--Loader-->
+
+ <!--<div class="loader" style="display:none;">
+	<div class="cube-wrapper">
+		<div class="cube-folding">
+			<span class="leaf1"></span>
+			<span class="leaf2"></span>
+			<span class="leaf3"></span>
+			<span class="leaf4"></span>
+		</div>
+		<span class="loading" data-name="Loading">Loading</span>
+	</div>
+</div>
+<div class="position-fixed bottom-0 start-0 p-3" style="z-index: 11">
+	<div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+		<div class="toast-header ">
+			<img src="https://mvstore.id/assets/upload/home/product/0dc5970b8d5c3a117da21ffe076f53bd.webp" class="rounded me-2 img-toast" width="30" alt="...">
+			<strong class="me-auto title-order">-</strong>
+			<small>12 seconds ago</small>
+			<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+		</div>
+		<div class="toast-body desc-toast"></div>
+	</div>
+</div> -->
+
+<!--Loader-->
+
+
+<div class="container">
+    <div class="row g-0">
+      <div class="col" >
+        <div class="main">
+            <div class="container p-5"></div>
+            <div class="slide-home container">
+                <div class="in-slide bg-dark rounded" style="padding:4px;">
+                    <div id="carouselExampleIndicators" class="carousel slide col" data-bs-ride="carousel">
+                        <div class="carousel-inner rounded" style="border-radius: 20%;">
+                            <div class="carousel-item active ">
+                                <img src="assets/img/banner 1.jpg" class="img-slide d-block w-100 rounded-3" alt="slide" decoding="async">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="assets/img/banner2.jfif" class="img-slide d-block w-100 rounded-3" alt="slide" decoding="async">
+                            </div>
+                            <div class="carousel-item ">
+                                <img src="assets/img/banner 1.jpg" class="img-slide d-block w-100 rounded-3" alt="slide" decoding="async">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+      </div>
+      </div>
+     <!-- <div class="col-sm-6 ">
+        <div class="main ">
+            <div class="container p-5"></div>
+            <div class="slide-home container">
+                <div class="in-slide bg-dark rounded sm-6" style="padding:4px;" >
+                    
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img src="assets/img/banner 1.jpg" class="img-slide d-block w-100 rounded-3" alt="slide" decoding="async">
+                            </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      </div> -->
+
+
+
+   
+               
+<!-- img slide end-->
+
+
+<div class="container">
+    <div class="list-product">
+        <div class="list-js-cat row ">
+            <div class="cat-item col-12 Games">
+                <h3 class="mb-5 mt-1 tilte-category text-white">Games <span class="text-info">
+                <strong>TOPUP</strong>
+                </span>
+                </h3>
+            </div>
+
+            <div class="col-4 col-md-2" style="padding:8px;">
+                <a class="aproduct" href="#">
+                <div class="product" style="margin-top:40px;">
+                    <div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+                        <div class="card 1" style="border-color:transparent;background-color:transparent;">
+                            <div class="card_image">
+                                <img width="auto" height="auto" decoding="async" class="produk-img" alt="Higgs Domino MD" loading="lazy" src="https://mvstore.id/assets/upload/home/product/0dc5970b8d5c3a117da21ffe076f53bd.webp"/>
+                            </div>
+                            <div class="card_title title-white"></div>
+                            <div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+                                <span class="text-dark text-lowercase" style="font-size: 15px;">Higgs Domino MD</span><br>
+                                <span style=" font-size: 12px;" class="">Games</span>
+                                <div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+                                    <button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="MOBILE LEGEND" loading="lazy" src="https://mvstore.id/assets/upload/home/product/eb82495267178f48488fe0af48275cf2.webp" />
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">MOBILE LEGEND</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2 mb-5" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="FREE FIRE" loading="lazy" src="https://mvstore.id/assets/upload/home/product/b93a9d6273d531eac2fcc43a0a8d0749.webp"/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">FREE FIRE</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+<!-- <div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="PUBG MOBILE" loading="lazy" src="https://mvstore.id/assets/upload/home/product/5e10f72a4d4ad3aacbeeee38afd98020.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">PUBG MOBILE</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Call of Duty MOBILE" loading="lazy" src="https://mvstore.id/assets/upload/home/product/bfdb1e653d63c3a9763bbd5f1e566121.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Call of Duty MOBILE</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="POINT BLANK" loading="lazy" src="https://mvstore.id/assets/upload/home/product/93297598919250f70db11ff0aed553e1.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">POINT BLANK</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Valorant" loading="lazy" src="https://mvstore.id/assets/upload/home/product/b6f97a4c3a38c5d0d42d98d4a06de04b.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Valorant</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Genshin Impact" loading="lazy" src="https://mvstore.id/assets/upload/home/product/32cfbd87f883b3833c57ccab8be3e2ef.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Genshin Impact</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Sausage Man" loading="lazy" src="https://mvstore.id/assets/upload/home/product/33be712a29edba989995c2db6fd15096.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Sausage Man</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Speed Drifters" loading="lazy" src="https://mvstore.id/assets/upload/home/product/81414d8fec89e78c699d35fec3ee07e0.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Speed Drifters</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="LOST SAGA" loading="lazy" src="https://mvstore.id/assets/upload/home/product/39ab5a3f0218a13ed08e1f116eb04308.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">LOST SAGA</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Marvel Super War" loading="lazy" src="https://mvstore.id/assets/upload/home/product/686fda9c636b001e6b15d3a93c3f044d.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Marvel Super War</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="8 Ball Pool" loading="lazy" src="https://mvstore.id/assets/upload/home/product/123f237c2f60b359e53f93b45e2b1d32.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">8 Ball Pool</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Lords Mobile" loading="lazy" src="https://mvstore.id/assets/upload/home/product/dc08ab81cc9a80a867a99396704e206e.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Lords Mobile</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="AU2 MOBILE" loading="lazy" src="https://mvstore.id/assets/upload/home/product/44eb50d658502c8e13ba34347c5de076.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">AU2 MOBILE</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="LifeAfter Credits" loading="lazy" src="https://mvstore.id/assets/upload/home/product/156d9d284e182091a325a7dd271ba287.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">LifeAfter Credits</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Laplace M" loading="lazy" src="https://mvstore.id/assets/upload/home/product/c1678fba2b52e9d88f527863ef08c7c9.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Laplace M</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Ride Out Heroes" loading="lazy" src="https://mvstore.id/assets/upload/home/product/623edf5a814583be82808a14cd76541c.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Ride Out Heroes</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Boyaa Capsa Susun" loading="lazy" src="https://mvstore.id/assets/upload/home/product/eb1841cbb1a23c082557396bb78ec10a.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Boyaa Capsa Susun</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="BOYAA DOMINO QIUQIU" loading="lazy" src="https://mvstore.id/assets/upload/home/product/911304a563b2071537bbec7c4e3f2e92.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">BOYAA DOMINO QIUQIU</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Apex Legends Mobile" loading="lazy" src="https://mvstore.id/assets/upload/home/product/28f137fe41a3a436620b3b57b26aa056.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Apex Legends Mobile</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Hyper Front" loading="lazy" src="https://mvstore.id/assets/upload/home/product/c8272a999c7c790131673138822abce6.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Hyper Front</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Super Sus" loading="lazy" src="https://mvstore.id/assets/upload/home/product/c594a2e541afd7e7f1c585b647b75a5c.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Super Sus</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Idle Legends" loading="lazy" src="https://mvstore.id/assets/upload/home/product/184b8ba94722a0e31378831bac40fb3e.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Idle Legends</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Omega Legends" loading="lazy" src="https://mvstore.id/assets/upload/home/product/e9ca04cf3aa3d584b7401512fd0ed5a5.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Omega Legends</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Naruto SlugfestX" loading="lazy" src="https://mvstore.id/assets/upload/home/product/7026ac34353270f37bfbc1f529eda6f6.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Naruto SlugfestX</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Ragnarok X" loading="lazy" src="https://mvstore.id/assets/upload/home/product/0e8f7c91b302dd294958605aed9d70a9.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Ragnarok X</span><br>
+									<span style=" font-size: 12px;" class="">Games</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="cat-item col-12 Hiburan">
+					<h3 class="m-0 mt-1 tilte-category">Hiburan <span class="text-warning">
+					<strong>TOPUP</strong>
+					</span>
+					</h3>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Bigo Live" loading="lazy" src="https://mvstore.id/assets/upload/home/product/3b23dda6c88babcb499a25378f2fd551.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Bigo Live</span><br>
+									<span style=" font-size: 12px;" class="">Hiburan</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Lita coin" loading="lazy" src="https://mvstore.id/assets/upload/home/product/6a21c17ececfddb0676dac37eed695dc.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Lita coin</span><br>
+									<span style=" font-size: 12px;" class="">Hiburan</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Mango Live" loading="lazy" src="https://mvstore.id/assets/upload/home/product/47e88a666379c9514068680061ca96d0.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Mango Live</span><br>
+									<span style=" font-size: 12px;" class="">Hiburan</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Sugar Live" loading="lazy" src="https://mvstore.id/assets/upload/home/product/e48626b3f8852cebc88f737bec58d5a2.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Sugar Live</span><br>
+									<span style=" font-size: 12px;" class="">Hiburan</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Vidio" loading="lazy" src="https://mvstore.id/assets/upload/home/product/d9af8f85bd3564f898b17e87a4d965e6.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Vidio</span><br>
+									<span style=" font-size: 12px;" class="">Hiburan</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="cat-item col-12 Pulsa & Data">
+					<h3 class="m-0 mt-1 tilte-category">Pulsa & Data <span class="text-warning">
+					<strong>TOPUP</strong>
+					</span>
+					</h3>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Telkomsel Pulsa & Data" loading="lazy" src="https://mvstore.id/assets/upload/home/product/9e50d231cbe7b8cb6eed9dec9a4ad854.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Telkomsel Pulsa & Data</span><br>
+									<span style=" font-size: 12px;" class="">Pulsa & Data</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Indosat Pulsa & Data" loading="lazy" src="https://mvstore.id/assets/upload/home/product/f0040565df3038a41a84732015a845fc.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Indosat Pulsa & Data</span><br>
+									<span style=" font-size: 12px;" class="">Pulsa & Data</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Xl Pulsa & Data" loading="lazy" src="https://mvstore.id/assets/upload/home/product/8dda07e7695ad54b5520b5ddb42d01bb.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Xl Pulsa & Data</span><br>
+									<span style=" font-size: 12px;" class="">Pulsa & Data</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Axis Pulsa & Data" loading="lazy" src="https://mvstore.id/assets/upload/home/product/1d6248eeb0aaaa1e48cae4a06a4e112b.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Axis Pulsa & Data</span><br>
+									<span style=" font-size: 12px;" class="">Pulsa & Data</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Tri Pulsa & Data" loading="lazy" src="https://mvstore.id/assets/upload/home/product/4594b5760fd07b263d835d040f57fca1.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Tri Pulsa & Data</span><br>
+									<span style=" font-size: 12px;" class="">Pulsa & Data</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Smartfreen Pulsa & Data" loading="lazy" src="https://mvstore.id/assets/upload/home/product/47ad3219d499c08ad748ea1dba267a82.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Smartfreen Pulsa & Data</span><br>
+									<span style=" font-size: 12px;" class="">Pulsa & Data</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-warning d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div> -->
+
+				<div class="cat-item col-12 Voucher mb-3">
+					<h3 class="m-0 mt-1 tilte-category text-white">Voucher <span class="text-info">
+					<strong>TOPUP</strong>
+					</span>
+					</h3>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="Steam Wallet (IDR)" loading="lazy" src="https://mvstore.id/assets/upload/home/product/4443d380ec911f568c98bd6e794443e2.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Steam Wallet (IDR)</span><br>
+									<span style=" font-size: 12px;" class="">Voucher</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="PLN" loading="lazy" src="https://mvstore.id/assets/upload/home/product/9f9551ed3dd8c40bf6fb8b7963e9a632.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">PLN</span><br>
+									<span style=" font-size: 12px;" class="">Voucher</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="GOOGLE PLAY INDONESIA" loading="lazy" src="https://mvstore.id/assets/upload/home/product/51624d0011919b7ae5469c9bd670cd76.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">GOOGLE PLAY INDONESIA</span><br>
+									<span style=" font-size: 12px;" class="">Voucher</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="WIFI ID" loading="lazy" src="https://mvstore.id/assets/upload/home/product/ec3924d9d0c40f0c52003ba19798261c.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">WIFI ID</span><br>
+									<span style=" font-size: 12px;" class="">Voucher</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="GARENA" loading="lazy" src="https://mvstore.id/assets/upload/home/product/d89976a70a9ff9c21cc6f882879ee381.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">GARENA</span><br>
+									<span style=" font-size: 12px;" class="">Voucher</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="SPOTIFY" loading="lazy" src="https://mvstore.id/assets/upload/home/product/f79192fd6631adeada5781ff8b381825.png" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">SPOTIFY</span><br>
+									<span style=" font-size: 12px;" class="">Voucher</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="ROBLOX" loading="lazy" src="https://mvstore.id/assets/upload/home/product/bd88cdcd06918ed449861d564303020b.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">ROBLOX</span><br>
+									<span style=" font-size: 12px;" class="">Voucher</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt="MINECRAFT" loading="lazy" src="https://mvstore.id/assets/upload/home/product/724c9908ad2ec270fccfbf4bb843a6c9.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">MINECRAFT</span><br>
+									<span style=" font-size: 12px;" class="">Voucher</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+				<div class="col-4 col-md-2" style="padding:8px;">
+					<a class="aproduct" href="#">
+					<div class="product" style="margin-top:40px;">
+						<div class=" cards-list bg-light" style="border-radius:15px;height:100%;padding:0 5px 0 5px;">
+							<div class="card 1" style="border-color:transparent;background-color:transparent;">
+								<div class="card_image">
+									<img width="auto" height="auto" decoding="async" class="produk-img" alt=" play station" loading="lazy" src="https://mvstore.id/assets/upload/home/product/4d2be168a7b81778d9465081b71e5cbb.webp" style=""/>
+								</div>
+								<div class="card_title title-white"></div>
+								<div class="text-center text-truncate text-dark" style="margin-top:5px;margin-bottom:5px;">
+									<span class="text-dark text-lowercase" style="font-size: 15px;">Play Station</span><br>
+									<span style=" font-size: 12px;" class="">Voucher</span>
+									<div class="mx-auto w-100 " style="margin: 0 0 5px 0;">
+										<button class="btn btn-info d-block w-100 fw-bolder" type="button" style="border-radius: 15px;font-size:10px">TOP UP</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div> 
+
+
+<!-- Footer -->
+<div class="text-white text-center p-5" >
+    <hr>
+    Copyright © 2023 by <span class="text-info"> LC</span> All Rights Reserved.
+</div>
+
+
+
+<!--<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-arrow-up"></i></button>-->
+<!-- Footer end-->
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+<script src="https://mvstore.id/assets/assetmv/js/navbar.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FPHSQ18MH7"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-FPHSQ18MH7');
+</script>
+<script type="text/javascript">
+    var _Hasync = _Hasync || [];
+    _Hasync.push(['Histats.start', '1,4729540,4,0,0,0,00000000']);
+    _Hasync.push(['Histats.fasi', '1']);
+    _Hasync.push(['Histats.track_hits', '']);
+    (function() {
+        var hs = document.createElement('script');
+        hs.type = 'text/javascript';
+        hs.async = true;
+        hs.src = ('//s10.histats.com/js15_as.js');
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+    })();
+</script>
+<noscript>
+<a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4729540&101" alt="" border="0"></a>
+</noscript>
+<!-- Histats.com  END  -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/components/prism-css.min.js" integrity="sha512-Jv/EO8zjSyqIDa2S0YjCGFY+mEROxud6g7AhfA0KcggjdzhPBhoRyetxV7G7/dnfBdZBzcOvpRn1K+J6sn3jyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+        scrollFunction()
+    };
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+<script>
+    function loadinghide() {
+        $('.loader').hide('fade', 500);
+    }
+    function loadingshow() {
+        $('.loader').show('fade', 500);
+    }
+</script>
+<script>
+    function formatRupiah(angka, prefix) {
+        var number_string = angka.replace(/[^,\d]/g, '').toString(),
+            split = number_string.split(','),
+            sisa = split[0].length % 3,
+            rupiah = split[0].substr(0, sisa),
+            ribuan = split[0].substr(sisa).match(/\d{3}/gi);
+        // tambahkan titik jika yang di input sudah menjadi angka ribuan
+        if (ribuan) {
+            separator = sisa ? '.' : '';
+            rupiah += separator + ribuan.join('.');
+        }
+        rupiah = split[1] != undefined ? rupiah + ',' + split[1] : rupiah;
+        return prefix == undefined ? rupiah : (rupiah ? 'Rp. ' + rupiah : '');
+    }
+</script>
+<script>
+        $(document).ready(function() {
+            // getProduct();
+        })
+    </script>
+</body>
+</html>
